@@ -1,0 +1,27 @@
+<meta charset="UTF-8">
+
+<input/>
+<button>Compare with the mistery number</button>
+
+<script>
+    var mistery = 5;
+
+    var input = document.querySelector("input");
+
+    function check() {
+
+        if(input.value == mistery) {
+
+        alert("You got it!");
+        } else {
+
+        alert("You are wrong!!");
+        }
+
+    }
+
+    var button = document.querySelector("button");
+
+    button.onclick = check;
+
+</script>
